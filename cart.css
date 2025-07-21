@@ -1,0 +1,308 @@
+header nav{
+    display: flex;
+    border-block: thin solid rgb(94, 92, 92);
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    margin-bottom: 10em;
+}
+header nav #cartdisp{
+    background-color: red;
+    color: #fff;
+    border: thin;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: -2px;
+    padding-top: 2px;
+}
+#ShowBut{
+    border: thin;
+    border-radius: 5px;
+    height: 35px;
+    color: #fff;
+    background-color: rgb(129, 88, 11);
+}
+#ClearBut{
+    border: thin;
+    border-radius: 5px;
+    height: 35px;
+    color: #fff;
+    margin-left: 18px;
+    background-color: rgb(129, 88, 11);
+}
+
+#testA{
+    position: fixed;
+    top: 7.2em;
+    background-color: rgb(237, 166, 33);
+    color: #fff;
+    border: thin solid #fff;
+    border-radius: 15px;
+    width: 230px;
+    height: 200px;
+    padding-inline: 1em ;
+    padding-block: 1em;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-110%);
+    z-index: 40;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+#test{
+    background-color: rgb(237, 166, 33);
+    color: #fff;
+    width: 210px;
+    transition: all 0.5s ease-in-out;
+    display: none;
+}
+
+.slide{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-3%)!important;
+}
+.showC{
+    display: block  !important;
+    
+}
+#cartA{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5em; */
+    margin-inline: 4em;
+    margin-top: 10em;
+}
+#cartB{
+    display: flex;
+    /* gap: 5em; */
+    margin-inline: 4em;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+#cartC{
+    display: flex;
+    /* gap: 5em; */
+    margin-inline: 4em;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+#cartD{
+    display: flex;
+    /* gap: 5em; */
+    margin-inline: 4em;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+#cartE{
+    display: flex;
+    /* gap: 5em; */
+    margin-inline: 4em;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+
+#but{
+    width: 190px;
+    height: 30px;
+    background-color: rgb(244, 168, 25);
+    color: #fff;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+/* Cart Start */
+#cart1{
+    width: 200px;
+    /* border: thin  rgba(242, 235, 235, 0.372);
+    box-shadow: 1px 2px 3px 1px; */
+    padding-inline: 1em;
+}
+#cart1:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart2{
+    width: 200px;
+    /* border: thin  rgba(242, 235, 235, 0.372);
+    box-shadow: 1px 2px 3px 1px; */
+    padding-inline: 1em;
+}
+#cart2:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart3{
+    width: 200px;
+    /* border: thin  rgba(242, 235, 235, 0.372);
+    box-shadow: 1px 2px 3px 1px; */
+    padding-inline: 1em;
+}
+#cart3:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart4{
+    width: 200px;
+    /* border: thin  rgba(242, 235, 235, 0.372);
+    box-shadow: 1px 2px 3px 1px; */
+    padding-inline: 1em;
+}
+#cart4:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart5{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart5:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart6{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart6:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart7{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart7:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart8{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart8:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart9{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart9:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart10{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart10:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart11{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart11:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart12{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart12:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease-in-out;
+}
+
+#cart13{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart13:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart14{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart14:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart15{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart15:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart16{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart16:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart17{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart17:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart18{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart18:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart19{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart19:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+#cart20{
+    width: 200px;
+    padding-inline: 1em;
+}
+#cart20:hover{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+/* Cart End */
